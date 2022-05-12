@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*----- Content -----*/
+
+#text-black {
+    color: black;
+}
+
+.bottom-material {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.top-material, .bottom-material {
+    height: 20px;
+    background-color: #7b1113;
+}
+
+#acad-units-dropdown {
+    border: none;
+}
+
+.up-logo {
+    display: flex;
+    align-items: center;
+    margin: 2vh 2vw;
+    padding: 5px;
+}
+
+.up-logo p{
+    margin: 0 2vw;
+    padding: 5px;
+    font: 500 18px "Poppins", arial, sans-serif;
+    color: #014421ff;
+    text-decoration: none;
+}
+
+.header-slogan p {
+    font: 700 18px "Poppins", arial, sans-serif;
+    text-align: right;
+    margin: 6vh 2vw;
+    padding: 5px;
+    color: #014421ff;
+}
+
+.up-logo img {
+    width: 80px;
+}
+
+/* ----- MENU ----- */
+
+.menu-tab {
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.menu-container {
+    display: inline-block;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+/*----- Tabs -----*/
+
+.ui-tabs-panel {
+    overflow-y: auto;
+    height: 500px;
+}
+
+.ui-menu-item .ui-widget {
+    font: 400 16px "Poppins", Arial, Sans-serif !important;
+    text-align: justify;
+}
+
+#home-tabs {
+    padding: 2vh 1vw;
+    margin-bottom: 2vh;
+}
+
+#acad-units .ui-widget { /* Selectmenu style */
+    border:none;  
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    width: max-content;
+}
+
+#acad-units .ui-widget-header { 
+    border:none; 
+    display:none; 
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    width: max-content;
+}
+
+#acad-units .ui-widget-content { 
+    border:none; 
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-color {
+    color: #014421ff;
+}
+
+#acad-units {
+    border: none;
+}
+
+#contact-us {
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .header-slogan p {
+        text-align: center;
+    }
+    
+    .up-logo {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-bottom: 0;
+    }
+
+    .side-menu {
+        display: flex;
+        margin-left: 3vw;
+        width: 20%;
+        margin-bottom: 0;   
+    }
+  }
